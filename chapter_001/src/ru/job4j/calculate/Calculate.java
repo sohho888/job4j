@@ -1,15 +1,14 @@
+package ru.job4j.calculate;
+
 /**
 * Package for calculate task.
-*
 * @author Vycheslav Ponomarev (sohho888@gmail.com)
 * @version $Id$
 * @since 0.1
 */
 
 public class Calculate {
-
-package ru.job4j.calculate;
-
+   
 /**
 * Конструктор, вывод строки в консоль.
 * @param args. 
