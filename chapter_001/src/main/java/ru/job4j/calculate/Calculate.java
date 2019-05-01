@@ -10,17 +10,37 @@ package ru.job4j.calculate;
 public class Calculate {
 
     /**
-     * Конструктор, вывод строки в консоль.
+     * Суммируем два вещественных числа.
+     * @param два вещественных числа.
+     * @return сумма.
      */
     public double add(double first, double second) {
         return first + second;
     }
+
+    /**
+     * Вычитаем два вещественных числа.
+     * @param два вещественных числа.
+     * @return разница.
+     */
     public double subtract(double first, double second) {
         return first - second;
     }
+
+    /**
+     * Делим два вещественных числа.
+     * @param два вещественных числа.
+     * @return Частное.
+     */
     public double div (double first, double second) {
         return first / second;
     }
+
+    /**
+     * Умножение двух вещественных числа.
+     * @param два вещественных числа.
+     * @return Произведение.
+     */
     public double multiple (double first, double second) {
         return first * second;
     }
