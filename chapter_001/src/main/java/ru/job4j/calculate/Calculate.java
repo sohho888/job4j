@@ -11,13 +11,17 @@ public class Calculate {
 
     /**
      * Конструктор, вывод строки в консоль.
-     * @param args.
      */
-    public static void main(String[] args) {
-        System.out.println("Hello World");
+    public double add(double first, double second) {
+        return first + second;
     }
-
-    public String echo(String input) {
-        return input;
+    public double subtract(double first, double second) {
+        return first - second;
+    }
+    public double div (double first, double second) {
+        return first / second;
+    }
+    public double multiple (double first, double second) {
+        return first * second;
     }
 }
