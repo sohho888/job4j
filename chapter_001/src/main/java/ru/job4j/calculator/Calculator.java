@@ -5,7 +5,6 @@ public class Calculator {
      * Программа расчета идеального веса.
      */
     public class Fit {
-
         /**
          * Идеальный вес для мужщины.
          * @param height Рост.
