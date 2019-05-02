@@ -23,5 +23,3 @@ public class Fit {
         return height * 110;
     }
 }
-
-}
