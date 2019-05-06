@@ -26,7 +26,7 @@ public class CalculateTest {
 
     @Test
     public void whenOneSubtractOneThenZero()  {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         double result = calc.subtract(1D, 1D);
         double expected = 0D;
         assertThat(result, is(expected));
@@ -34,7 +34,7 @@ public class CalculateTest {
 
     @Test
     public void whenOneDivOneThenOne()  {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         double result = calc.div(1D, 1D);
         double expected = 1D;
         assertThat(result, is(expected));
@@ -42,7 +42,7 @@ public class CalculateTest {
 
     @Test
     public void whenOneMultipleOneThenOne()  {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         double result = calc.multiple(1D, 1D);
         double expected = 1D;
         assertThat(result, is(expected));
