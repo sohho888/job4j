@@ -1,4 +1,5 @@
 package ru.job4j.condition;
+
 /**
  * @author Vyacheslav Ponomarev (sohho888@gmail.com)
  * @version $Id$
