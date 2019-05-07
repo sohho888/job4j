@@ -35,25 +35,24 @@ public class Triangle {
         double c = new Point().distance(x1, y1, x3, y3);
         double p = period(a, b, c);
         if (this.exist(a, b, c)) {
-            Math.pow ((p *(p-a*b) * (p - a*c) * (p - b*c) );
-            rsl = -1;
+            rsl = Math.pow ((p *(p-a*b) * (p - a*c) * (p - b*c) );
         }
         return rsl;
     }
 
     /**
-     * Метод проверяет можно ли построить треугольник с такими длинами сторон.
+     * Метод проверяет, можно ли построить треугольник с такими длинами сторон.
      *
-     * Подумайте какое надо написать условие, чтобы определить можно ли построить треугольник.
+     * Подумайте, какое надо написать условие, чтобы определить можно ли построить треугольник.
      *
-     * @param a Длина от точки a b.
-     * @param c Длина от точки b c.
-     * @param b Длина от точки a c.
+     * @param ab Длина от точки a до точки b.
+     * @param ac Длина от точки a до точки c.
+     * @param bc Длина от точки b до точки c.
      * @return
      */
-    private boolean exist(double a, double c, double b) {
-        if (a != 0 && b != 0 && c != 0) {
-            return true;
+
+    private boolean exist(double ab, double ac, double bc) {
+        if ((ab + bc) > ac && (bc + ac) > ab && (ac + ab) > bc) {
         }
         return false;
     }
